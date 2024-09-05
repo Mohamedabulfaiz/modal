@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="open()" class="top-button" > click here</button>
+    <button onclick="openmodal()" class="top-button" > click here</button>
     <div id="modal" class="modal-head">
         <div class="modal-main">
             <h1>This sample heading</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reprehenderit magnam fugit, tempora ullam eos deserunt? Aliquid laborum veritatis tenetur neque corrupti omnis eos, magnam quisquam amet, necessitatibus veniam repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores iure cupiditate. Quisquam, quo aliquid facere quasi omnis repellat minima in excepturi commodi distinctio repellendus possimus id libero exercitationem fuga.</p>
-            <button onclick="close()">close</button>
+            <button onclick="closemodal()">close</button>
         </div>
     </div>
     <script>
-        function open() {
+        function openmodal() {
             document.getElementById("modal").style.display="block";
             
         }
-        function close() {
+        function closemodal() {
             document.getElementById("modal").style.display="none";
             
         }

@@ -26,4 +26,12 @@
     border: none;
     
 }
+.top-button{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin: auto;
+}
 
